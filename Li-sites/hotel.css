@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+header {background-color: antiquewhite;
+    font-size: 80px;
+    font-family: "Tangerine", sans-serif;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 100px;
+    z-index: 1;}
+
+    body {display: flex;
+        flex-direction: column;
+        padding-top: 150px;
+        margin: 0;
+    align-items: center;}
+
+#hotel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.plaatjehotel {
+    margin: 30px;
+}
+
+footer {background-color:antiquewhite;
+    width: 100vw;
+    padding: 20px;
+    font-family: serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+ a {color: rgb(190, 6, 6);}
+
+html {
+overflow-x: hidden;
+}
+

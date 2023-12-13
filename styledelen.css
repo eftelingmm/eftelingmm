@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+header {background-color: antiquewhite;
+font-size: 80px;
+font-family: "Tangerine", sans-serif;
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 20px;
+height: 100px;
+z-index: 1;}
+
+
+footer {background-color:antiquewhite;
+width: 100vw;
+padding: 20px;
+font-family: serif;
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+a {color: rgb(190, 6, 6);}
+
+body {display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    margin: 0;
+align-items: center;
+;}
+
+.overlay {
+    color: antiquewhite;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1; 
+    background-color: rgba(0,0,0,0.6);
+    width: 305px;
+    height: 98%;
+    opacity: 0;
+    transition: opacity 1s 0.2s, font-size 1.5s cubic-bezier(.41,.99,.66,1.05) 0.2s;
+    font-family: "Courgette" ;
+} 
+
+#achtbanen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+  position: relative;
+    
+}
+#overigeattracties {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    position: relative;
+}
+.attracties { margin: 20px ;
+    max-width: 300px;
+    position: relative;
+   
+}
+
+.attracties img {
+    border: 3px double #000;
+    box-shadow: 3px 3px 8px 0px rgb(0, 0, 0); 
+    border-radius: 12px;
+}
+
+#plaatjesattracties { display: flex;
+    flex-direction: column;
+    
+}
+
+.overlay:hover {
+    opacity: 1;
+    font-size: 33px;
+}
+
+ul {border: solid rgb(190, 6, 6) 3px;
+border-radius: 12px;
+box-shadow: 0px 3px 8px 0px rgba(160, 6, 6, 0.5);
+padding: 15px;
+display: flex;
+direction: row;
+justify-content: space-evenly;
+font-family: "Tangerine";
+font-size: 30px;
+list-style:none;}
+
+li {
+    margin: 0px 20px;
+}
+
+#filmje iframe {border: solid rgb(190, 6, 6) 3px;
+border-radius: 12px;
+box-shadow: 0px 3px 8px 0px rgba(160, 6, 6, 0.5)}
+
+#nieuwjaar img {border: solid rgb(190, 6, 6) 3px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 8px 0px rgba(160, 6, 6, 0.5);}
+
+#nieuwjaar {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#filmje {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#filmje-nieuwjaar {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+margin-bottom: 40px;
+}    
+
+html {
+    overflow-x: hidden;
+}
+
+
+h1 {
+    margin-top: 70px;
+font-family: "DM Serif Display";
+}
+
+#besteattracties {
+    margin-bottom: 0px;
+}
+
+#plattegrond {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    align-items: center;
+}
+#plattegrondpdf {
+    border: solid rgb(58, 92, 47) 10px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 8px 0px rgb(58, 92, 47);
+}
+
+#titelplatt {
+    margin: 0px;
+}
